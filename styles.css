@@ -1,0 +1,84 @@
+/* Reset some defaults */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Header Styling */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-bottom: 4px solid #444;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.navbar {
+  margin-top: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+}
+
+.navbar a:hover {
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+/* Main container */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Card sections */
+.card {
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.card p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+.btn {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  margin-top: 30px;
+}
